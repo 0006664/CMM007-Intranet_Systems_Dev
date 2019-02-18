@@ -7,7 +7,13 @@
 <body>
 <p>
     <?php
-    echo "Hello World";
+
+$numberofhobbits = 1;
+
+$myArray = array("do","re","mi"); //declares the array
+    unset($myArray[1]);
+    echo $myArray[0] // outputs "do"
+
     ?>
 </p>
 

@@ -1,6 +1,9 @@
 /* ================================================================== */
 /* This file has a mobile-to-tablet, and tablet-to-desktop breakpoint */
 /* ================================================================== */
+body {font-family: Arial, Helvetica, sans-serif; background-image: url("assets/images/wedding.jpg"); background-size: cover;
+} /* image source https://www.freeimages.com/photo/wedding-1310947 */
+
 @media (max-width: 400px) {
   @-ms-viewport {
     width: 320px;
